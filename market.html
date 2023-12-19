@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sell.css">
+    <link rel="stylesheet"href="css/mdb.min.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class="nav1">
+            <nav>
+                <!-- <a href="signup.html" class="cta">Register Now</a> -->
+                <a href="Dashboard.html">Home</a>
+                <a href="sell.html">Shop</a>
+                <a href="market.html">Market</a>
+                <a href="topup.html">Top-up</a>
+                <a href="topup.html">Contact Us</a>
+
+
+
+            </nav>
+        </div>
+
+
+    </header>
+
+    <label id="switch" class="switch">
+        <input type="checkbox" onchange="toggleTheme()" id="slider">
+        <span class="slider round"></span>
+    </label>
+<!-- <button id="switch" onclick="toggleTheme()">Switch</button> -->
+</div>
+<script>
+</script>
+
+    <div class="market">
+        <!-- <h1>Market</h1> -->
+        <script>
+            const atag = document.querySelectorAll("a");
+            atag.forEach(a => {
+                if (a.href === "https://www.jika.io/quote/AAPL/overview") {
+                    a.style.display = "none";
+                }
+            })
+
+        </script>
+        <div class="mark1">
+            
+            <iframe referrerpolicy="origin" width="100%" height="450"
+                style="background: #dbb20c; padding: 10px; border: none; border-radius: 10px; box-shadow: 0 2px 4px 0 rgb(15, 15, 15);"
+                src="https://jika.io/embed/area-chart?symbol=AAPL&selection=one_year&closeKey=close"></iframe>
+            <iframe referrerpolicy="origin" width="100%" height="450"
+                style="background: #dbb20c; padding: 10px; border: none; border-radius: 10px; box-shadow: 0 2px 4px 0 #1a1919;"
+                src="https://jika.io/embed/area-chart?symbol=AAPL&selection=one_year&closeKey=close"></iframe>
+        </div>
+
+        <div class="mark1">
+            <iframe referrerpolicy="origin" width="100%" height="450"
+                style="background: #dbb20c; padding: 10px; border: none; border-radius: 5px; box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)"
+                src="https://jika.io/embed/area-chart?symbol=META&selection=one_year&closeKey=close"></iframe>
+            <iframe referrerpolicy="origin" width="100%" height="450"
+                style="background: #dbb20c; padding: 10px; border: none; border-radius: 10px; box-shadow: 0 2px 4px 0 #000000;"
+                src="https://jika.io/embed/area-chart?symbol=AAPL&selection=one_year&closeKey=close"></iframe>
+        </div>
+
+        <div class="mark1">
+            <iframe referrerpolicy="origin" width="100%" height="450"
+                style="background: #dbb20c; padding: 10px; border: none; border-radius: 10px; box-shadow: 0 2px 4px 0 #0f0f0f;"
+                src="https://jika.io/embed/area-chart?symbol=AAPL&selection=one_year&closeKey=close"></iframe>
+            <iframe referrerpolicy="origin" width="100%" height="450"
+                style="background: #dbb20c; padding: 10px; border: none; border-radius: 10px; box-shadow: 0 2px 4px 0 #f7f7f7;"
+                src="https://jika.io/embed/area-chart?symbol=AAPL&selection=one_year&closeKey=close"></iframe>
+        </div>
+
+      
+
+
+    </div>
+<script src="dark.js"></script>
+
+
+
+</body>
+
+</html>
